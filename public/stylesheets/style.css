@@ -1,8 +1,42 @@
-body {
+/*body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
+}*/
 
 a {
   color: #00B7FF;
+}
+/*#index-jumbo{
+  padding-left: 0;
+  padding-right: 0;
+}*/
+
+#jumbo-container{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.jumbotron{
+  background-image: url('../images/volleymain.jpg');
+  /*background-size: 100% 100%;*/
+  /*background-size: 60em 40em;*/
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#jumbo-title{
+  color: #616161;
+}
+.jumbotron .container p{
+  color: #757575;
+}
+
+#jumbo-info-container{
+  opacity: .9;
+  background-color: #eeeeee;
+}
+
+.form-container{
+  padding-left: 0;
+  padding-right: 0;
 }
