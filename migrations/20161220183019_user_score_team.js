@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
       table.increments();
       table.string('player_fname').notNullable();
       table.string('player_lname').notNullable();
-      table.string('player_email').unique().notNullable();;
+      table.string('player_email').unique().notNullable();
       table.boolean('admin');
     }),
     knex.schema.createTable('team', function(table){
